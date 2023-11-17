@@ -8,7 +8,9 @@ grade: stable
 confinement: devmode
 
 architectures:
-  - build-on: [amd64, arm64, armhf]
+  - build-on: amd64
+  - build-on: arm64
+  - build-on: armhf
 
 parts:
   minicom-part:
